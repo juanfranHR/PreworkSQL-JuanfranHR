@@ -120,7 +120,7 @@ igual a 5.*/
 
         SELECT *
         FROM public.clientes
-        WHERE nombre ILIKE 'a%';
+        WHERE nombre ILIKE 'A%'OR ILIKE 'Á%';
 
 /**********************************************************************************/
 /*1.16. Realizar una consulta que muestre el nombre del cliente y el total de pedidos
